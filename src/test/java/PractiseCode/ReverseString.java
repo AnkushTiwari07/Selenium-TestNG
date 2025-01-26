@@ -3,7 +3,6 @@ package PractiseCode;
 public class ReverseString {
 
     public String reverseString(String input){
-        String temp = "";
         StringBuffer sb = new StringBuffer();
         for(int i = input.length()-1 ; i>=0 ; i-- ){
             sb.append(input.charAt(i));
